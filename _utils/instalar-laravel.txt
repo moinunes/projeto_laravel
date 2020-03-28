@@ -1,0 +1,4 @@
+
+
+-- instalar o laravel
+/var/www$ composer create-project --prefer-dist laravel/laravel projeto_laravel

@@ -1,0 +1,34 @@
+
+
+*** COMO USAR O GIT ***
+
+
+//.. configurar git
+git config --global user.email "moinunes@gmail.com"
+git config --global user.name "moinunes"
+
+***************** comandos repositório local
+iniciar o controle de versionamento na pasta atual
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/moinunes/projeto_laravel.git
+git push -u origin master
+
+
+
+*****************  setar url ( setar o origim com o endereço do gitHub )
+git remote add origin https://github.com/moinunes/sistema.git
+
+
+***************** subir os arquivos para o gitHub
+\\\
+
+
+--github
+usuario....: moinunes
+password...: cpd...
+
+
+2- Alterar o diretório remoto para SSH
+git remote set-url origin git@github.com:moinunes/sistema.git
